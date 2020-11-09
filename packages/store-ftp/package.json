@@ -1,0 +1,39 @@
+{
+  "name": "@indiekit/store-ftp",
+  "version": "0.1.0-alpha.12",
+  "description": "Store IndieWeb content via FTP",
+  "keywords": [
+    "indiekit",
+    "indieweb",
+    "micropub",
+    "ftp"
+  ],
+  "homepage": "https://getindiekit.com",
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "url": "https://paulrobertlloyd.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/getindiekit/indiekit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getindiekit/indiekit.git",
+    "directory": "packages/store-ftp"
+  },
+  "dependencies": {
+    "basic-ftp": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -150,6 +150,7 @@
             "./packages/preset-hugo",
             "./packages/preset-jekyll",
             "./packages/store-bitbucket",
+            "./packages/store-ftp",
             "./packages/store-github",
             "./packages/store-gitlab",
             "./packages/syndicator-internet-archive",
