@@ -110,6 +110,26 @@
   margin-block-start: var(--flow-space);
 }
 
+.s-linear .header-anchor {
+  color: var(--color-neutral);
+  font-style: italic;
+  font-weight: normal;
+  margin-inline-start: 0.25em;
+  text-decoration: none;
+  visibility: hidden;
+}
+
+.s-linear .header-anchor:hover {
+  color: var(--color-anchor-hover, inherit);
+  text-decoration-color: currentColor;
+}
+
+.s-linear h2:hover .header-anchor,
+.s-linear h3:hover .header-anchor,
+.s-linear h4:hover .header-anchor {
+  visibility: visible;
+}
+
 .s-linear .language-bash {
   background-color: var(--color-neutral-darkest);
   color: var(--color-neutral-lightest);
